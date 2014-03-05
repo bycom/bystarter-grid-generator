@@ -1,0 +1,22 @@
+<macromedia-extension name="BY Starter Grid Generator" version="1.0.0" type="Command">
+	<author name="BY" />
+	<products>
+		<product name="Fireworks" version="4" primary="true" />
+	</products>
+	<description>
+		<![CDATA[
+			This set of commands generates the BY Starter grid guidelines in various breakpoints. This generator is based on the 960.gs grid generator by Nathan Smith.
+		]]>
+	</description>
+	<ui-access>
+		<![CDATA[
+			You can run these commands from Commands menu.
+		]]>
+	</ui-access>
+	<files>
+		<file name="Small devices (tablets, 768px and up).jsf" destination="$fireworks/configuration/commands/BY Starter" />
+		<file name="Medium devices (desktops, 992px and up).jsf" destination="$fireworks/configuration/commands/BY Starter" />
+		<file name="Large devices (large desktops, 1200px and up).jsf" destination="$fireworks/configuration/commands/BY Starter" />
+	</files>
+	<configuration-changes></configuration-changes>
+</macromedia-extension>
